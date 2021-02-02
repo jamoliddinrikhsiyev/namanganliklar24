@@ -80,3 +80,17 @@
 body{
     font-family: "Rubik", sans-serif;
   }
+
+li{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: b0;
+}
+
+:root{
+  --b1: black;
+  --b05: rgba(0,0,0,0.5);
+}
