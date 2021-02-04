@@ -9,48 +9,198 @@
     <title>Namanganliklar 24</title>
 </head>
 <body>
-    <header class="index-heading">
-        <div class="heading">
-            <h1 class="logo">Namanganliklar24</h1>
-            <div class="kurs">
-                <span id="kurs-dollar">
-                    <span>$</span>10137.2
-                </span>
-                <span id="kurs-rubla">
-                    <span>P</span>138.26
-                </span>
-                <span id="kurs-evro">
-                    <span>E</span>10988.72
-				</span>
+    <header class="header">
+    	<div class="container">
+        	<div class="heading">
+        	    <h1 class="heading__logo unsel">Namanganliklar24</h1>
+        	    <div class="money">
+        	        <span class="money__span"><span>&#36;</span>10137.2</span>
+        	        <span class="money__span"><span>&#8381;</span>138.26</span>
+        	        <span class="money__span"><span>&#8364;</span>10988.72</span>
+				</div>
+				<form action="#" method="get">
+					<label class="search">
+						<input id="search" class="search__input" type="search">
+					</label>
+				</form>
+				<div class="lang-change">
+					<span class="lang-span unsel"><img class="lang-span__img" src="img-1/russion-flag.svg" alt="ru" width="20" height="20">РУ</span>
+					<ul class="lang">
+						<li class="lang__li unsel">O'Z</li>
+						<li class="lang__li unsel">EN</li>
+					</ul>
+				</div>
+				<a class="subscribe-telegram unsel" href="#"><img src="./img-1/telegram.svg" alt="t" width="20" height="20">Подписаться</a>
+        	</div>
+        	<div class="header-nav-wrapper">
+				<nav class="header-nav">
+					<li class="header-nav__li"><a href="#">Узбекистана</a></li>
+					<li class="header-nav__li"><a href="#">Мир</a></li>
+					<li class="header-nav__li"><a href="#">Экономика</a></li>
+					<li class="header-nav__li"><a href="#">Политика</a></li>
+					<li class="header-nav__li"><a href="#">Общество</a></li>
+					<li class="header-nav__li"><a href="#">Технологии</a></li>
+					<li class="header-nav__li"><a href="#">Спорт</a></li>
+					<li class="header-nav__li"><a href="#">Культура</a></li>
+					<li class="header-nav__li"><a href="#">Происшествия</a></li>
+					<li class="header-nav__li"><a href="#">Туризм</a></li>
+				</nav>
 			</div>
-			<form action="#" method="get"><label class="search-1"><input type="search"><span class="search"><img src="./img-1/search.svg" alt="O"></span></label></form>
-			<button class="lang-button">
-				рус
-			</button>
-			<ul>
-				<li>o'zb</li>
-				<li>ўзб</li>
-			</ul>
-			<a href="#"><img src="./img-1/telegram.svg" alt="t" width="20" height="20">Подписаться</a>
-        </div>
-        <div class="header-nav-wrapper">
-			<nav class="header-nav">
-				<li class="header-nav-li"><a href="#">Узбекистана</a></li>
-				<li class="header-nav-li"><a href="#">Мир</a></li>
-				<li class="header-nav-li"><a href="#">Экономика</a></li>
-				<li class="header-nav-li"><a href="#">Политика</a></li>
-				<li class="header-nav-li"><a href="#">Общество</a></li>
-				<li class="header-nav-li"><a href="#">Технологии</a></li>
-				<li class="header-nav-li"><a href="#">Спорт</a></li>
-				<li class="header-nav-li"><a href="#">Культура</a></li>
-				<li class="header-nav-li"><a href="#">Происшествия</a></li>
-				<li class="header-nav-li"><a href="#">Туризм</a></li>
-			</nav>
+			<aside class="ad"><a href="#"><img src="img-1/adv.jpg" alt="advertising" width="1199" height="100"></a></aside>
 		</div>
-		<aside class="ad"><h2>Реклама</h2></aside>
 	</header>
 	<main class="index-main">
-		<section></section>
+		<div class="container">
+			<section class="virus-info">
+				<ul class="info-list">
+					<li class="info-list__li">
+						<img src="img-1/virus.svg" alt="vir" width="43" height="45">
+						<p class="info-list__li-p">Коронавирус COVID-19 в Узбекистане</p>
+					</li>
+					<li class="info-list__li">
+						<img class="vir" src="img-1/emoji-with-mask.svg" alt="mask" width="38" height="40">
+						<div class="info-list__li-text">
+							<span class="color-red">Инфицированы</span>
+							<span>2753</span>
+						</div>
+					</li>
+					<li class="info-list__li">
+						<img class="vir" src="img-1/smile.svg" alt="sm" width="38" height="40">
+						<div class="info-list__li-text">
+							<span class="color-green">Выздоровели</span>
+							<span>2245</span>
+						</div>
+					</li>
+					<li class="info-list__li">
+						<img class="vir" src="img-1/dead.svg" alt="dd" width="38" height="38">
+						<div class="info-list__li-text">
+							<span>Умерли</span>
+							<span>12</span>
+						</div>
+					</li>
+				</ul>
+			</section>
+			<div class="news">
+				<ul class="news-list">
+					<li class="news-list-li">
+						<img src="img-1/img1.jpg" alt="img" class="news-img" width="386" height="190">
+						<h3 class="news-head">Мирзиёев рассказал, зачем было построено Сардобинское водохранилище</h3>
+						<time class="news-time" datetime="16-05-2020 05:28">05:28 / 16.05.2020</time>
+					</li>
+					<li class="news-list-li">
+						<img src="img-1/img2.jpg" alt="img" class="news-img" width="386" height="190">
+						<h3 class="news-head">Карантин в Узбекистане продлен до 1 июня</h3>
+						<time class="news-time" datetime="16-05-2020 05:28">05:28 / 16.05.2020</time>
+					</li>
+					<li class="news-list-li">
+						<img src="img-1/img3.jpg" alt="img" class="news-img" width="386" height="190">
+						<h3 class="news-head">Обмелевшая Сардоба: стихия или человеческий фактор?</h3>
+						<time class="news-time" datetime="16-05-2020 05:28">05:28 / 16.05.2020</time>
+					</li>
+					<li class="news-list-li">
+						<img src="img-1/img4.jpg" alt="img" class="news-img" width="386" height="190">
+						<h3 class="news-head">Следствие проверяет четыре версии прорыва Сардобинской плотины</h3>
+						<time class="news-time" datetime="16-05-2020 05:28">05:28 / 16.05.2020</time>
+					</li>
+					<li class="news-list-li">
+						<img src="img-1/img5.jpg" alt="img" class="news-img" width="386" height="190">
+						<h3 class="news-head">Выявлено еще 7 случаев коронавируса</h3>
+						<time class="news-time" datetime="16-05-2020 05:28">05:28 / 16.05.2020</time>
+					</li>
+					<li class="news-list-li">
+						<img src="img-1/img6.jpg" alt="img" class="news-img" width="386" height="190">
+						<h3 class="news-head">Итоги второго месяца карантина</h3>
+						<time class="news-time" datetime="16-05-2020 05:28">05:28 / 16.05.2020</time>
+					</li>
+				</ul>
+			</div>
+			<div class="notifications">
+				<img src="img-1/notification-new.svg" alt="not" class="not-img" width="31" height="35">
+				<p class="not-p">Хотите узнать новости первыми? подключите уведомления!</p>
+				<button type="submit" class="on-notification">
+					Включить уведомления!
+				</button>
+			</div>
+			<div class="last-news">
+				<section class="last-news-section">
+					<h2 class="last-news__head">Последние новости</h2>
+					<ul class="news-about-list">
+						<li class="news-about-list__li">
+							<img src="img-1/rectangle21.jpg" alt="re" width="252" height="143">
+							<div class="about-news-box">
+								<h3>По факту прорыва Сардобинского водохранилища возбуждено уголовное дело</h3>
+								<p>После прорыва дамбы Сардобинского водохранилища возбуждено уголовное дело, сообщили в пресс-службе Генпрокуратуры Узбекистана.</p>
+								<time datetime="15-05-2020 11:31"><img src="img-1/date.svg" alt="d" width="18" height="22">11:31 / 15.05.2020</time>
+							</div>
+						</li>
+						<li class="news-about-list__li">
+							<img src="img-1/rectangle22.jpg" alt="re" width="252" height="143">
+							<div class="about-news-box">
+								<h3>Мирзиёев: «Нам следовало бы принять некоторые правила карантина как часть повседневной жизни»</h3>
+								<p>Президент Узбекистана заявил, что после того, как угроза коронавируса исчезнет, в стране следовало бы принять некоторые правила периода карантина как часть своей повседневной жизни.</p>
+								<time datetime="15-05-2020 11:31"><img src="img-1/date.svg" alt="d" width="18" height="22">11:31 / 15.05.2020</time>
+							</div>
+						</li>
+						<li class="news-about-list__li">
+							<img src="img-1/rectangle22.jpg" alt="re" width="252" height="143">
+							<div class="about-news-box">
+								<h3>В Ташкенте планируют ввести новую систему электронных проездных билетов</h3>
+								<p>Целью этих изменений является максимально возможное сокращение количества других маршрутов на улицах, где проходят основные маршруты.</p>
+								<time datetime="15-05-2020 11:31"><img src="img-1/date.svg" alt="d" width="18" height="22">11:31 / 15.05.2020</time>
+							</div>
+						</li>
+						<li class="news-about-list__li">
+							<img src="img-1/rectangle21.jpg" alt="re" width="252" height="143">
+							<div class="about-news-box">
+								<h3>По факту прорыва Сардобинского водохранилища возбуждено уголовное дело</h3>
+								<p>После прорыва дамбы Сардобинского водохранилища возбуждено уголовное дело, сообщили в пресс-службе Генпрокуратуры Узбекистана.</p>
+								<time datetime="15-05-2020 11:31"><img src="img-1/date.svg" alt="d" width="18" height="22">11:31 / 15.05.2020</time>
+							</div>
+						</li>
+						<li class="news-about-list__li">
+							<img src="img-1/rectangle22.jpg" alt="re" width="252" height="143">
+							<div class="about-news-box">
+								<h3>Мирзиёев: «Нам следовало бы принять некоторые правила карантина как часть повседневной жизни»</h3>
+								<p>Президент Узбекистана заявил, что после того, как угроза коронавируса исчезнет, в стране следовало бы принять некоторые правила периода карантина как часть своей повседневной жизни.</p>
+								<time datetime="15-05-2020 11:31"><img src="img-1/date.svg" alt="d" width="18" height="22">11:31 / 15.05.2020</time>
+							</div>
+						</li>
+						<li class="news-about-list__li">
+							<img src="img-1/rectangle22.jpg" alt="re" width="252" height="143">
+							<div class="about-news-box">
+								<h3>В Ташкенте планируют ввести новую систему электронных проездных билетов</h3>
+								<p>Целью этих изменений является максимально возможное сокращение количества других маршрутов на улицах, где проходят основные маршруты.</p>
+								<time datetime="15-05-2020 11:31"><img src="img-1/date.svg" alt="d" width="18" height="22">11:31 / 15.05.2020</time>
+							</div>
+						</li>
+					</ul>
+					<a href="#" class="more-news">Большу новостей</a>
+				</section>
+				<section class="popular-news">
+					<h2 class="popular-news__p">Cамые популярные новости</h2>
+					<ul class="popular-news-list">
+						<li class="pop-news-li">
+							<p>По факту прорыва Сардобинского водохранилища возбуждено уголовное дело</p>
+							<time datetime="15-05-2020 11:31">11:31 / 15.05.2020</time>
+						</li>
+						<li class="pop-news-li">
+							<p>По факту прорыва Сардобинского водохранилища возбуждено уголовное дело</p>
+							<time datetime="15-05-2020 11:31">11:31 / 15.05.2020</time>
+						</li>
+						<li class="pop-news-li">
+							<p>По факту прорыва Сардобинского водохранилища возбуждено уголовное дело</p>
+							<time datetime="15-05-2020 11:31">11:31 / 15.05.2020</time>
+						</li>
+						<li class="pop-news-li">
+							<p>По факту прорыва Сардобинского водохранилища возбуждено уголовное дело</p>
+							<time datetime="15-05-2020 11:31">11:31 / 15.05.2020</time>
+						</li>
+					</ul>
+					<aside class="ad1"><a href="#"><img src="img-1/rectangle41.jpg" alt="res" width="386" height="477"></a></aside>
+				</section>
+			</div>
+		</div>
 	</main>
+
 </body>
 </html>
