@@ -477,6 +477,7 @@ a{
   align-items: center;
   justify-content: center;
   position: absolute;
+  z-index: 5;
   left: 0;
   right: 0;
   top: 0;
